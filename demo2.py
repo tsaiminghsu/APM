@@ -29,16 +29,6 @@ video_capture = cv2.VideoCapture(0)
 # Load a sample picture and learn how to recognize it.
 hsutsaiming_image = face_recognition.load_image_file("hsutsaiming.jpg")
 hsutsaiming_face_encoding = face_recognition.face_encodings(hsutsaiming_image)[0]
-
-#kaochihlin_image = face_recognition.load_image_file("kaochihlin.jpg")
-#kaochihlin_face_encoding = face_recognition.face_encodings(kaochihlin_image)[0]
-
-#kuotingwei_image = face_recognition.load_image_file("kuotingwei.jpg")
-#kuotingwei_face_encoding = face_recognition.face_encodings(kuotingwei_image)[0]
-
-#linkunting_image = face_recognition.load_image_file("linkunting.jpg")
-#linkunting_face_encoding = face_recognition.face_encodings(linkunting_image)[0]
-
 # Initialize some variables
 face_locations = []
 face_encodings = []
@@ -73,17 +63,6 @@ while True:
             if match[0]:
                 name ="hsutsaiming"
                 isDetection=1
-            #match = face_recognition.compare_faces([kaochihlin_face_encoding],face_encoding)
-            #if match[0]:
-              #  name= "kaochihlin"
-
-            #match = face_recognition.compare_faces([kuotingwei_face_encoding],face_encoding)
-            #if match[0]:
-              #  name= "kuotingwei"
-
-            #match = face_recognition.compare_faces([linkunting_face_encoding],face_encoding)
-            #if match[0]:
-              #  name= "linkunting"
             else :
                 isDetection=0
 
