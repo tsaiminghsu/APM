@@ -1,4 +1,5 @@
 # ArduCopter(3.2.1 or 3.3.3)
+![image](https://github.com/tsaiminghsu/ArduCopter/blob/master/ArDrone2_rsapi.jpg)
 ## Update and upgrade all existing packages
 ### $sudo apt-get update
 ### $sudo apt-get upgrade
