@@ -40,3 +40,5 @@ comments out the last line which should look like this
 ### was saved). Right click on the QuadrotorUAVCode.py and select Open With: Python 2 IDLE. Note that
 the code will not run and OpenCV will not be recognized if Python 3 IDLE is used. Once Python 2 IDLE
 and Python Shell are open, click Run in the IDLE.
+## VMWare 虛擬機安裝編譯PX4原始碼(ISO要安裝在SSD M.2識別不出來的解決方式請參考下列網址)
+### https://gitee.com/bingobinlw/some
